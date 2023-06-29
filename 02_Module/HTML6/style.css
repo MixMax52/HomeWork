@@ -5,29 +5,22 @@ body, h1, h2, h3, h4, p, a {
     background-color: #C0C0C0;
 }
 
-
-.menu {
-    align-items: center;
-    display: flex;
-    height: 50px;
+ul {
+    list-style-type: none;
 }
-
 
 .row {
-    margin: 0;
-    padding: 4px;
-}
-
-.row li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 3px solid blue; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
+    display: flex;
+    justify-content: space-around;
     color: blue;
+    font-weight: 600;
 }
 
 .submenu {
-    display: inline;
-    border: 3px solid blue;
-    padding: 3px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.submenu li {
+    font-weight: 200;
 }
