@@ -1,0 +1,25 @@
+.header {
+    background: #644545;
+    color: white;
+}
+
+
+.special-text {
+    color: rgb(233, 79, 220);
+}
+
+.header_block {
+    width: 100px;
+    height: 100px;
+    background: rgb(212, 33, 33);
+}
+
+.main {
+    width: 300px;
+    background: #dd53ba;
+}
+
+.main_content__element {
+    color: white;
+    background-color: rgb(62, 62, 183);
+}
