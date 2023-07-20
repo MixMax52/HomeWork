@@ -2,7 +2,7 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav_block {
+.text_block {
     display: block;
 
 }
@@ -11,6 +11,10 @@ nav {
     font-size: 20px;
 }
 
-.text-block {
+.content-block {
     width: 300px;
+}
+
+footer {
+    background-color: rgba(184, 168, 168, 0.906);
 }
