@@ -1,11 +1,16 @@
-.bold_text {
-    font-weight: 600;
-}
-
-.text-block {
-    width: 300px;
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav_block {
     display: block;
+
+}
+.bold_text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-block {
+    width: 300px;
 }
