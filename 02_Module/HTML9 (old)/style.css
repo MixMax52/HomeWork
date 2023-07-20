@@ -1,0 +1,11 @@
+.bold_text {
+    font-weight: 600;
+}
+
+.text-block {
+    width: 300px;
+}
+
+.nav_block {
+    display: block;
+}
