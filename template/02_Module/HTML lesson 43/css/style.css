@@ -33,3 +33,11 @@ body {
 .header-item {
     margin-right: 30px;
 }
+
+.header-button {
+    color: #2766AE;
+    background: #fff;
+    border-radius: 100px;
+}
+
+/* 38 мин 52 сек */
