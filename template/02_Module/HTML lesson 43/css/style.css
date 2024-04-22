@@ -46,4 +46,73 @@ body {
     padding: 14px 30px;
 }
 
-/* 38 мин 52 сек */
+
+/* ================================================ */
+
+
+.hero {
+    background: url("../img/hero_bg2.jpg")10% 50% / cover no-repeat;
+    padding: 120px 0;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 436px;
+}
+
+.hero-text span{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #01A2CB;
+}
+
+.paragraph {
+    margin-bottom: 15px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.hero-button-one,
+.hero-button-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-button-one img,
+.hero-button-two img {
+    margin-left: 4px;
+}
+
+.hero-button-one {
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+}
+
+.hero-button-two {
+    background: linear-gradient(95.22deg, #00A4CC 6.7%, #2766AE 91.35%);
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
