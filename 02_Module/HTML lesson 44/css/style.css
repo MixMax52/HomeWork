@@ -61,3 +61,10 @@ body {
     justify-content: right;
     margin-right: 30px;
 }
+
+/* ================================================ */
+
+.hero {
+    background: url("../img/Hero_bg.jpg")10% 50% / cover no-repeat;
+    padding: 300px 0;
+}
