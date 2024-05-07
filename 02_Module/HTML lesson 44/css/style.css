@@ -6,32 +6,58 @@ body {
 
 .header-inner {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 1200px;
+    margin: 30px auto;
     height: 100%;
 }
 
 /* ================================================ */
 
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: auto; */
+}
+
+.header-left {
+    display: flex;
+    justify-content: left;
+}
+
+.header-right {
+    display: flex;
+    justify-content: end;
+}
+
+.header-list-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-list-right {
+    display: flex;
+    align-items: center;
+    
+}
+
 .header-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 15%;
 }
 
-.header-nav {
-    margin-left: auto;
+.header-item-left {
+    justify-content: left;
+    margin-right: 30px;
 }
 
-.header-list {
-    display: flex;
-}
-
-.header-item {
+.header-item-right {
+    justify-content: right;
     margin-right: 30px;
 }
