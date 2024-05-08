@@ -170,3 +170,26 @@ h1  {
     color: #1D6FB6;
 }
 
+/* ================================================ */
+
+.footer {
+    display: flex;
+    background: #788088;
+    color: white;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    /* width: 300px;
+    height: 20px; */
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.footer-text {
+    margin-left: 10px;
+}
