@@ -82,19 +82,31 @@ h1  {
 
 /* ================================================ */
 
+.content-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 120px auto;
+}
+
 .global-content {
     display: flex;
     justify-content: space-between;
     background-color: rgb(153, 128, 97);
     width: 1200px;
     height: 2022px;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 .left-menu {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     width: 282px;
-    height: 1000px;
+    height: 1170px;
+    border: 2px solid #D0DCE7;
+    padding: 30px 30px;
+}
+
+.left-menu-item {
+    padding-bottom: 20px;
 }
 
 .global-content-block {
@@ -116,3 +128,6 @@ h1  {
     height: 700px;
     margin: 200px 50px 50px;
 }
+
+/* ================================================ */
+
