@@ -51,7 +51,7 @@ h1  {
     background: url("../img/Hero_bg.jpg");
     background-size: auto;
     background-repeat: no-repeat;
-    /* padding: 582px; */
+    padding: 120px 0;
 }
 
 .hero-title {
@@ -74,16 +74,17 @@ h1  {
     margin-left: 18px;
 }
 
-.hero-button {
+.hero-container-button {
     display: flex;
     justify-content: center;
 }
 
-.hero-button-1 {
+.button {
     font-size: 16px;
     font-weight: 400;
     border-radius: 100px;
     padding: 28px 144px;
     color: #1D6FB6;
     background: #D0DCE7;
+    margin-top: 30px;
 }
