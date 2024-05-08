@@ -4,11 +4,6 @@ body {
     font-weight: 400;
 }
 
-.header-inner {
-    display: flex;
-    /* align-items: center; */
-}
-
 .container {
     max-width: 1200px;
     margin: 30px auto;
@@ -19,46 +14,15 @@ body {
 
 .header-nav {
     display: flex;
-    justify-content: space-around;
-    /* margin-left: auto; */
-}
-
-.header-left {
-    display: flex;
-    justify-content: left;
-}
-
-.header-right {
-    display: flex;
-    justify-content: end;
-}
-
-.header-list-left {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
-.header-list-right {
+.header-list {
     display: flex;
-    align-items: center;
-    
 }
 
-.header-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15%;
-}
-
-.header-item-left {
-    justify-content: left;
-    margin-right: 30px;
-}
-
-.header-item-right {
-    justify-content: right;
+.header-item {
     margin-right: 30px;
 }
 
