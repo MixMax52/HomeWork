@@ -65,7 +65,7 @@ h1  {
     margin-left: 18px;
 }
 
-.hero-container-button {
+.container-button {
     display: flex;
     justify-content: center;
 }
@@ -74,10 +74,10 @@ h1  {
     font-size: 16px;
     font-weight: 400;
     border-radius: 100px;
-    padding: 28px 144px;
+    padding: 18px 130px;
     color: #1D6FB6;
     background: #D0DCE7;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 /* ================================================ */
@@ -118,10 +118,8 @@ h1  {
 .block-1 {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: black; */
     max-width: 792px;
     max-height: 792px;
-    /* margin: 50px; */
     justify-content: space-between;
 }
 
@@ -137,12 +135,22 @@ h1  {
     margin: 0 0 24px 17px;
 }
 
+/* ================================================ */
+
 .block-2 {
-    background-color: black;
-    width: 700px;
-    height: 700px;
-    margin: 200px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 792px;
+    max-height: 792px;
+    justify-content: space-between;
+    margin-top: 120px;
 }
 
-/* ================================================ */
+.container-watch {
+    max-width: 384px;
+    max-height: 354px;
+    border: 2px solid #D0DCE7;
+}
+
+
 
