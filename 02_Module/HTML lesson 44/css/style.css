@@ -91,7 +91,7 @@ h1  {
 .global-content {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(153, 128, 97);
+    /* background-color: rgb(153, 128, 97); */
     width: 1200px;
     height: 2022px;
     /* padding: 50px 0; */
@@ -110,16 +110,31 @@ h1  {
 }
 
 .global-content-block {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 792px;
     height: 1900px;
 }
 
 .block-1 {
-    background-color: black;
-    width: 700px;
-    height: 700px;
-    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    max-width: 792px;
+    max-height: 792px;
+    /* margin: 50px; */
+    justify-content: space-between;
+}
+
+.small-image {
+    max-width: 400px;
+}
+
+.small-image-item-left {
+    padding: 0 17px 24px 0;
+}
+
+.small-image-item-right {
+    margin: 0 0 24px 17px;
 }
 
 .block-2 {
