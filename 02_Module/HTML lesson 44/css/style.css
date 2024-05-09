@@ -91,14 +91,11 @@ h1  {
 .global-content {
     display: flex;
     justify-content: space-between;
-    /* background-color: rgb(153, 128, 97); */
     width: 1200px;
     height: 2022px;
-    /* padding: 50px 0; */
 }
 
 .left-menu {
-    /* background-color: cadetblue; */
     width: 282px;
     height: 1170px;
     border: 2px solid #D0DCE7;
@@ -110,7 +107,6 @@ h1  {
 }
 
 .global-content-block {
-    /* background-color: chartreuse; */
     width: 792px;
     height: 1900px;
 }
