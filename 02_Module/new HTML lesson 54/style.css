@@ -1,0 +1,23 @@
+header {
+    height: 60px;
+    background-color: #d6943e;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.citate {
+    background-color: #d7b992;
+}
+
+footer {
+    height: 300px;
+    background-color: blue;
+    color: #fff;
+}
+
+.footer_link {
+    color: #fff;
+}
