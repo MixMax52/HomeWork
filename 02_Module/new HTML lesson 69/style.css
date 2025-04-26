@@ -53,3 +53,7 @@
 .quads__quad--red {
     transform: translate(645px, 595px);
 }
+
+.quads__quad--green {
+    transform: translate(405px, -95px) rotate(25deg);
+}
