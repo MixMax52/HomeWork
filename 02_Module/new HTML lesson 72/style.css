@@ -1,0 +1,31 @@
+body {
+    background-color: #946767;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.box {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(72, 40, 40);
+    top: 50%;
+    left: 50%;
+    transform-origin: 10px 10px;
+}
+
+.box:hover {
+    .line {
+        width: 700px;
+    }
+}
+
+.line {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background-color: white;
+    transform: translate(-200px, -100px);
+    transition-duration: 1s;
+}
