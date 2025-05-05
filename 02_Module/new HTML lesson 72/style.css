@@ -1,24 +1,32 @@
 body {
     background-color: #946767;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    max-width: 1000px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
-    position: fixed;
+    position: absolute;
     width: 200px;
     height: 200px;
     border-radius: 10px;
     background: rgb(72, 40, 40);
-    top: 50%;
-    left: 50%;
-    transform-origin: 10px 10px;
 }
 
 .box:hover {
     .line {
-        width: 700px;
+        width: 600px;
     }
+}
+
+.text {
+    position: sticky;
+    top: 50%;
+    /* text-align: center; */
+    color: green;
+    font-size: 20px;
 }
 
 .line {
@@ -26,6 +34,6 @@ body {
     width: 10px;
     height: 30px;
     background-color: white;
-    transform: translate(-200px, -100px);
+    transform: translate(-200px, -130px);
     transition-duration: 1s;
 }
