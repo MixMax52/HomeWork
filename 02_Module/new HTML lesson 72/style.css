@@ -1,39 +1,47 @@
 body {
     background-color: #946767;
+}
+
+.main {
     display: flex;
-    max-width: 1000px;
-    height: 800px;
+    min-width: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
+    border: 1px black solid;
 }
 
 .box {
-    position: absolute;
+
     width: 200px;
     height: 200px;
     border-radius: 10px;
     background: rgb(72, 40, 40);
 }
 
-.box:hover {
-    .line {
-        width: 600px;
-    }
+.box:hover .text {
+    color: rgb(165, 202, 111);
+    transition: color 3.5s step-end;
+}
+
+.box:hover .line {
+    width: 55%;
+    transition-duration: 3s;
 }
 
 .text {
-    position: sticky;
-    top: 50%;
-    /* text-align: center; */
-    color: green;
     font-size: 20px;
+    color: rgb(72, 40, 40);
+    padding-top: 45%;
+    padding-left: 35%;
+    transition: color 1s step-end;
 }
 
 .line {
     position: absolute;
-    width: 10px;
+    transform: translate(-200px, -170px);
+    width: 0px;
     height: 30px;
     background-color: white;
-    transform: translate(-200px, -130px);
-    transition-duration: 1s;
+    transition: width 1s ease-in-out;
 }
