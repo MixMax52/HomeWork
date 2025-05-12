@@ -25,7 +25,7 @@ body {
 }
 
 .box:hover .line {
-    width: 55%;
+    width: 40%;
     transition-duration: 3s;
 }
 
