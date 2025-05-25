@@ -21,7 +21,7 @@ body {
 
 .box:hover .text {
     color: rgb(165, 202, 111);
-    transition: color 3.5s step-end;
+    transition: color 3.5s 3s;
 }
 
 .box:hover .line {
@@ -34,7 +34,7 @@ body {
     color: rgb(72, 40, 40);
     padding-top: 45%;
     padding-left: 35%;
-    transition: color 1s step-end;
+    transition: color 2s 1s;
 }
 
 .line {
