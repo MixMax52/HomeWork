@@ -1,5 +1,6 @@
 //2) Создайте массив чисел, далее создайте функцию, которая будет принимать в качестве аргумента массив чисел. Функция должна перебирать полученный массив и если число больше 10 - выводить это число в консоль.
 
+//загуглил код, который рандомно генерит массив чисел, чтобы интереснее было делать выборку
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -7,8 +8,7 @@ function getRandomInt(min, max) {
 const arr = Array.from({ length: 10 }, () => getRandomInt(1, 20)); // от 1 до 100
 console.log(arr);
 
-someArray = arr
-
+//тут уже чисто мой код
 function numericFilter(array) {
     for(count = 0; count < array.length; count++) {
         if (array[count] > 10) {
